@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+\$factory->define($1, function (Faker \$faker) {
+    return [
+        $0
+    ];
+});
+]]></content>
+    <tabTrigger>factory</tabTrigger>
+    <scope>source.php</scope>
+</snippet>

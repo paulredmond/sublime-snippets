@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+\$factory->state($1, '${2:state}', function (Faker \$faker) {
+    return [
+        $0
+    ];
+});
+]]></content>
+    <tabTrigger>factorystate</tabTrigger>
+    <scope>source.php</scope>
+</snippet>

@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+private function $1($2)
+{
+    $0
+}
+]]></content>
+    <tabTrigger>prif</tabTrigger>
+    <scope>source.php</scope>
+</snippet>

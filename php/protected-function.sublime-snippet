@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+protected function $1($2)
+{
+    $0
+}
+]]></content>
+    <tabTrigger>prof</tabTrigger>
+    <scope>source.php</scope>
+</snippet>

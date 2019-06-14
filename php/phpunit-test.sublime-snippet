@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+/** @test */
+public function $1()
+{
+    $0
+}
+]]></content>
+    <description>Create a PHPUnit Test Case</description>
+    <tabTrigger>test</tabTrigger>
+    <scope>source.php</scope>
+</snippet>
