@@ -1,6 +1,5 @@
 <snippet>
     <content><![CDATA[
-/** @test */
 public function setUp(): void
 {
     parent::setUp();
