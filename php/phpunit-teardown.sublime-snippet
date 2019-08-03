@@ -3,8 +3,8 @@
 /** @test */
 public function tearDown(): void
 {
-    $0
     parent::tearDown();
+    $0
 }
 ]]></content>
     <description>PHPUnit tearDown() method</description>

@@ -3,11 +3,11 @@
 /** @test */
 public function setUp(): void
 {
-    $0
     parent::setUp();
+    $0
 }
 ]]></content>
-    <description>PHPUnit Setup Method</description>
+    <description>PHPUnit setUp() Method</description>
     <tabTrigger>setup</tabTrigger>
     <scope>source.php</scope>
 </snippet>
