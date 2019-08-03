@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+/** @test */
+public function setUp(): void
+{
+    $0
+    parent::setUp();
+}
+]]></content>
+    <description>PHPUnit Setup Method</description>
+    <tabTrigger>setup</tabTrigger>
+    <scope>source.php</scope>
+</snippet>
