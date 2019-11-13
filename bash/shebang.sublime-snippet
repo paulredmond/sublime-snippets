@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[
+#!/usr/bin/env bash
+]]></content>
+    <tabTrigger>#!</tabTrigger>
+</snippet>
