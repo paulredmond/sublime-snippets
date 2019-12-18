@@ -1,0 +1,23 @@
+<snippet>
+    <content><![CDATA[
+* { outline: 2px dotted red }
+* * { outline: 2px dotted green }
+* * * { outline: 2px dotted orange }
+* * * * { outline: 2px dotted blue }
+* * * * * { outline: 1px solid red }
+* * * * * * { outline: 1px solid green }
+* * * * * * * { outline: 1px solid orange }
+* * * * * * * * { outline: 1px solid blue }
+
+* *:hover { border:2px solid #89A81E }                   /* Solid Green */
+* * *:hover { border:2px solid #F34607 }                 /* Solid Orange */
+* * * *:hover { border:2px solid #5984C3 }               /* Solid Blue */
+* * * * *:hover { border:2px solid #CD1821 }             /* Solid Red */
+* * * * * *:hover { border:2px dotted #89A81E }          /* Dotted Green */
+* * * * * * *:hover { border:2px dotted #F34607 }        /* Dotted Orange */
+* * * * * * * *:hover { border:2px dotted #5984C3 }      /* Dotted Blue */
+* * * * * * * * *:hover { border:2px dotted #CD1821 }    /* Dotted Red */
+]]></content>
+    <tabTrigger>cssdebug</tabTrigger>
+    <scope>source.css,source.sass</scope>
+</snippet>
