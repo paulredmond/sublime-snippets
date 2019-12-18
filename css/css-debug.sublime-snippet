@@ -17,6 +17,7 @@
 * * * * * * *:hover { border:2px dotted #F34607 }        /* Dotted Orange */
 * * * * * * * *:hover { border:2px dotted #5984C3 }      /* Dotted Blue */
 * * * * * * * * *:hover { border:2px dotted #CD1821 }    /* Dotted Red */
+$0
 ]]></content>
     <tabTrigger>cssdebug</tabTrigger>
     <scope>source.css,source.sass</scope>
