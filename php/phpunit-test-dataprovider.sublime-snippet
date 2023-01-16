@@ -1,0 +1,22 @@
+<snippet>
+    <content><![CDATA[
+/**
+ * @test
+ * @dataProvider ${2}
+ */
+public function $1()
+{
+    $0
+}
+
+public function ${2}dataProvider(): array
+{
+    return [
+        $3
+    ];
+}
+]]></content>
+    <description>Create a PHPUnit Test Case With a Data Provider</description>
+    <tabTrigger>testdp</tabTrigger>
+    <scope>source.php</scope>
+</snippet>
