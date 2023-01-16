@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-/** @test */
+/* @test */
 public function $1()
 {
     $0
