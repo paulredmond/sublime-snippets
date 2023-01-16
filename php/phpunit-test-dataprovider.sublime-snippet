@@ -2,14 +2,14 @@
     <content><![CDATA[
 /**
  * @test
- * @dataProvider ${2}
+ * @dataProvider ${2:DataProvider}()
  */
 public function $1()
 {
     $0
 }
 
-public function ${2}dataProvider(): array
+public function ${2:DataProvider}(): array
 {
     return [
         $3
