@@ -1,7 +1,6 @@
 <snippet>
     <content><![CDATA[
-/* @test */
-public function $1()
+public function test_$1()
 {
     $0
 }
