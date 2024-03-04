@@ -1,0 +1,9 @@
+[
+    {
+        "keys": ["super+shift+enter"],
+        "command": "run_macro_file",
+        "args": {
+            "file": "Packages/User/sublime-snippets/macros/end-of-line-semicolon.sublime-macro"
+        }
+    }
+]
