@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+export const ${TM_FILENAME/(.+)\..+|.*/$1/:name} = (props) => {
+    return (
+        $0
+    );
+};
+]]></content>
+    <tabTrigger>fcomponent</tabTrigger>
+    <scope>source.js</scope>
+</snippet>
