@@ -16,7 +16,7 @@
             { "key": "selector", "operator": "equal", "operand": "text.html.markdown" }
         ]
     },
-    // HTML comments in Markdown
+    // HTML comments in Markdown.
     {
         "keys": ["super+alt+/"],
         "command": "insert_snippet",
