@@ -1,15 +1,26 @@
 [
-    {
+   // Move cursor to the EOL and add a semicolon.
+   {
         "keys": ["super+shift+enter"],
         "command": "run_macro_file",
         "args": {
             "file": "Packages/User/sublime-snippets/macros/end-of-line-semicolon.sublime-macro"
         }
     },
+    // Markdown comment override.
     {
         "keys": ["super+/"],
         "command": "insert_snippet",
         "args": {"contents": "[//]: # ($0)"},
+        "context": [
+            { "key": "selector", "operator": "equal", "operand": "text.html.markdown" }
+        ]
+    },
+    // HTML comments in Markdown
+    {
+        "keys": ["super+alt+/"],
+        "command": "insert_snippet",
+        "args": {"contents": "<!-- $0 -->"},
         "context": [
             { "key": "selector", "operator": "equal", "operand": "text.html.markdown" }
         ]
