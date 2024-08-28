@@ -24,5 +24,10 @@
         "context": [
             { "key": "selector", "operator": "equal", "operand": "text.html.markdown" }
         ]
+    },
+    // Reveal current file in the sidebar.
+    {
+        "keys": ["ctrl+shift+r"],
+        "command": "reveal_in_side_bar"
     }
 ]
